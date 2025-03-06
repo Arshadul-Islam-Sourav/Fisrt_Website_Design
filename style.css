@@ -1,0 +1,624 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    width: 80%;
+    color: neutral/white;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    border: 1px;
+}
+
+.logo {
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.menu-bar {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 8px;
+    gap: 15px;
+    display: flex;
+    border-top: 1px solid #ddd;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+header ul li {
+    cursor: pointer;
+    font-weight: bold;
+    flex-shrink: inherit;
+    padding: 8px 15px;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 5px;
+}
+
+header ul li a {
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 7px 13px;
+    color: slategray;
+    text-decoration: none;
+}
+
+a.active,
+a:hover {
+    background: #1b9bff;
+    transform: 0.5s;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.header-search {
+    width: 10%;
+    text-align: end;
+    padding-right: 10px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.hero-area {
+    background-color: #f9f8f9;
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0.67cm;
+    margin-block-end: 0.67cm;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.hero-title {
+    font-size: 5vw;
+    font-family: "playfair display", sans-serif;
+    color: #094B72;
+}
+
+.hero-para {
+    font-size: 2vw;
+    padding: 30px 0px;
+    font-family: "Plus Jakaria Sans", sans-serif;
+}
+
+p {
+    display: block;
+    margin-block-start: 1cm;
+    margin-block-end: 1cm;
+}
+
+.hero-btn {
+    text-decoration: none;
+    background-color: #094B72;
+    color: white;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-family: "Plus Jakaria Sans", sans-serif;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: ;
+    color: ;
+}
+
+.hero-company {
+    margin-top: 30px;
+}
+
+.hero-company-title {
+    color: gray;
+    margin-bottom: 30px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.00cm;
+    font-weight: bold;
+    margin-block-start: 1cm;
+    margin-block-end: 1cm;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    unicode-bidi: isolate;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.social-link {}
+
+.hero-image {
+    width: 40%;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.service-area {
+    background-color: #F2FCFF;
+    width: 100%;
+}
+
+.service {
+    display: flex;
+    width: 70%;
+    color: neutral/white;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    border: 1px;
+}
+
+.service-content {
+    margin-top: 80px;
+}
+
+.service-title {
+    font-size: 3vw;
+    font-family: "playfair display", sans-serif;
+    color: rgb(63, 53, 53);
+}
+
+.service-para {
+    font-size: 1.7vw;
+    padding: 30px 0px;
+    font-family: "Plus Jakaria Sans", sans-serif;
+    color: gray;
+}
+
+.service-catagories {
+    display: grid;
+    width: 55%;
+    grid: 50% /auto auto;
+    gap: 18px;
+    margin: 50px;
+    padding: 24px;
+}
+
+.service-box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 18px 58px 16px #0000000F;
+}
+
+.service-box h5 {
+    font-size: 35px;
+    padding: 10PX 0PX;
+    font-family: "Playfair Display", sans-serif;
+}
+
+h5 {
+    display: block;
+    margin-block-start: 0.67cm;
+    margin-block-end: 0.67cm;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.service-box p {
+    color: #888C8C;
+    font-size: 20px;
+    font-family: "Plus Jakaria Sans", sans-serif;
+}
+
+p {
+    display: block;
+    margin-block-start: 1cm;
+    margin-block-end: 1cm;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.counter-area {
+    width: 100%;
+    background-color: #1282A6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.counter {
+    width: 60%;
+    margin: auto;
+    padding: 80px 0px;
+}
+
+.counter-header {
+    text-align: center;
+}
+
+.counter-header h1 {
+    font-size: 48px;
+    font-family: "Playfare Display", sans-serif;
+}
+
+.counter-header p {
+    font-size: 18px;
+    font-family: "Playfare Display", sans-serif;
+}
+
+.counter-body {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.counter-item {
+    text-align: center;
+    width: 33%;
+}
+
+.counter-item h1 {
+    font-size: 48px;
+    font-family: "Playfare Display", sans-serif;
+}
+
+.counter-item p {
+    font-size: 18px;
+    font-family: "Playfare Display", sans-serif;
+}
+
+.counter-side-border {
+    border-left: 1px solid #ffffff50;
+    border-right: 1px solid #ffffff50;
+}
+
+.testimonial-area {
+    width: 100%;
+    background-color: #f4fbff;
+    padding: 60px 0px;
+}
+
+.testimonial {
+    width: 80%;
+    margin: auto;
+}
+
+.testimonial h1 {
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonial-body {
+    display: flex;
+    gap: 30px;
+}
+
+.testimonial-item {
+    width: 50%;
+}
+
+.testimonial-content {
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: sans-serif;
+    box-shadow: 0px 10px 20px 0px #29292A12;
+    background: #FFFFFF;
+}
+
+.testimonial-content h5 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #2d2f30;
+}
+
+.testimonial-content p {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #4F4F4F;
+}
+
+.testimonial-user {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.t-user-image {}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.t-user-content {
+    margin: 10px;
+}
+
+.t-user-content h4,
+.t-user-content p {
+    margin: 10px;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.faq-area {
+    width: 100%;
+    background-color: white;
+}
+
+.faq {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.faq-content {
+    width: 60%;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+
+.faq-content h1 {
+    color: #2D2F30;
+    font-size: 48px;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.faq-content p {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    padding: 30px 0px;
+    color: #4F4F4F;
+}
+
+.faq-content a {
+    text-decoration: none;
+    background-color: #0F6E8C;
+    color: white;
+    border-radius: 8px;
+    padding: 15px 25px;
+    display: inline-block;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.fa-solid,
+.fas {
+    font-weight: 900;
+}
+
+.fa-phone {
+    --fa: "\f095";
+}
+
+.fa-classic,
+.fa-regular,
+.fa-solid,
+.far,
+.fas {
+    font-family: "Font Awesome 6 Free";
+}
+
+.fa,
+.fa-brands,
+.fa-regular,
+.fa-solid,
+.fab,
+.far,
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+.faq-image {
+    width: 40%;
+    height: 400px;
+    background-image: url(./img/Group\ 30.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 0px 0px 0px 50px;
+}
+
+.footer-top {
+    width: 100%;
+    background-color: #0F6E8C;
+    color: #F4F5F7;
+    padding: 100px 0px;
+}
+
+.footer1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.footer-logo {
+    width: 40%;
+}
+
+.footer-item {
+    width: 20%;
+}
+
+.footer-item h5 {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.footer-item ul {
+    list-style: none;
+    padding-inline-start: 0PX;
+}
+
+.footer-item ul li {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.footer-item ul li a {
+    text-decoration: none;
+    color: #EEEFF4;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    transition: .3s;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40PX;
+    unicode-bidi: isolate;
+}
+
+.footer-bottom {
+    width: 100%;
+    background-color: #05546D;
+    padding: 20px 0px;
+    color: #D9DBE1;
+}
+
+.footer2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-left {
+    width: 50%;
+}
+
+.bottom-left p {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.bottom-right {
+    text-align: end;
+    width: 50%;
+}
+
+.bottom-right {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.bottom-right a {
+    background-color: #0F6E8C;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 100%;
+    margin: 0px 10px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.fa-instagram {
+    --fa: "\f16d";
+}
+
+.fa-brands,
+.fab {
+    font-weight: 400;
+}
+
+.fa-brands,
+.fab {
+    font-family: "Font Awesome 6 Brands";
+}
+
+.fa,
+.fa-brands,
+.fa-regular,
+.fa-solid,
+.fab,
+.far,
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+*/
